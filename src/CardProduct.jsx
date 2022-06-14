@@ -14,7 +14,7 @@ export default class CardProduct extends Component {
       </div>
     );
     function myFunc() {
-      alert(person.company.name);
+      alert("company: " + person.company.name);
     }
   }
 }
